@@ -12,7 +12,16 @@ body {
   padding: 0 1rem;
   margin: 0;
 }
-
+body, html {
+  width: 100%;
+  height: 100%;
+}
+.suaDivPrincipal {
+  width: 100%;
+  max-width: none; /* remove limite de largura */
+  padding: 0;
+  margin: 0;
+}
 header {
   display: flex;
   align-items: center;
