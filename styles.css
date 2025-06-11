@@ -1,83 +1,104 @@
-body {
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
   font-family: Georgia, serif;
-  background-color: #c4d5a1;
-  color: #1f2a15;
-  padding: 0 16px;
+  background-color: #61925f; /* cor de fundo igual da imagem */
+  color: #1f2a15; /* texto padrão */
+  padding: 0 1rem;
 }
 
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #3c563c;
-  padding: 10px 20px;
-  color: white;
+  padding: 1rem;
+  background-color: #50724e; /* fundo escuro do topo */
 }
 
-.menu-icon {
+.menu {
   font-size: 28px;
   cursor: pointer;
+  color: #d9d9d9;
+  background: none;
+  border: none;
 }
 
-.logo img {
-  height: 50px;
+.logo {
+  width: 70px;
+  height: 70px;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 h1 {
   font-size: 20px;
-  font-weight: 600;
-  margin-top: 24px;
   text-align: center;
-}
-
-.subtitulo-verde {
+  margin-top: 1rem;
   font-weight: bold;
-  color: #103b00;
+  color: #1f2a15;
+}
+
+.destaque {
+  color: #081d00;
   font-size: 16px;
+  font-weight: bold;
+  margin: 1rem 0;
   text-align: center;
 }
 
-.descricao {
-  margin-top: 20px;
+.texto {
   font-size: 16px;
   line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.texto p {
+  margin-bottom: 1rem;
 }
 
 .botoes {
-  margin-top: 20px;
   display: flex;
-  gap: 10px;
-  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
   flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
-.botao-verde {
-  background-color: #e0e7d6;
-  color: #264d00;
-  border: none;
+.botao {
   padding: 10px 20px;
+  border: none;
   font-weight: bold;
   cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: background-color 0.3s;
 }
 
-.botao-roxo {
-  background-color: #dcd0f4;
-  color: #2b0066;
-  border: none;
-  padding: 10px 20px;
-  font-weight: bold;
-  cursor: pointer;
+.comprar, .vender {
+  background-color: #d9d9d9;
+  color: #3653e2;
 }
 
-.imagens {
-  margin-top: 20px;
+.comprar:hover, .vender:hover {
+  background-color: #d9d9d9;
+}
+
+.imagem-produtos {
   display: flex;
   justify-content: center;
+  margin-bottom: 3rem;
 }
 
-.imagens img {
-  max-width: 100%;
+.imagem-produtos img {
+  width: 100%;
+  max-width: 300px;
   border-radius: 12px;
-  box-shadow: 2px 2px 8px #00000044;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
 }
