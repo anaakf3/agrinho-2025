@@ -5,29 +5,23 @@
 }
 
 body {
-
   font-family: Georgia, serif;
-  background-color: #61925f; /* cor de fundo igual da imagem */
-  color: #000000; /* texto padrão */
-  padding: 0 1rem;
+  background-color: #61925f;
+  color: #000000;
   margin: 0;
 }
+
 body, html {
   width: 100%;
   height: 100%;
 }
-.suaDivPrincipal {
-  width: 100%;
-  max-width: none; /* remove limite de largura */
-  padding: 0;
-  margin: 0;
-}
+
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 1rem;
-  background-color: #50724e; /* fundo escuro do topo */
+  background-color: #50724e;
 }
 
 .menu {
@@ -44,8 +38,8 @@ header {
 }
 
 main {
-  max-width: 800px;
-  margin: 0 auto;
+  width: 100%;
+  padding: 1rem;
 }
 
 h1 {
@@ -65,9 +59,10 @@ h1 {
 }
 
 .texto {
-  font-size: 35px;
+  font-size: 28px;
   line-height: 1.6;
   margin-bottom: 2rem;
+  padding: 0 1rem;
 }
 
 .texto p {
@@ -98,7 +93,7 @@ h1 {
 }
 
 .comprar:hover, .vender:hover {
-  background-color: #d9d9d9;
+  background-color: #cfcfcf;
 }
 
 .imagem-produtos {
@@ -110,9 +105,12 @@ h1 {
 .imagem-produtos img {
   width: 100%;
   max-width: 300px;
+  margin: 0 auto;
+  display: block;
   border-radius: 12px;
   box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
 }
+
 .menu-lateral {
   position: fixed;
   top: 0;
