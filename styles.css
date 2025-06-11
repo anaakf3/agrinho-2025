@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+  background-color: #c4d5a1;
+  color: #1f2a15;
+  padding: 0 16px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3c563c;
+  padding: 10px 20px;
+  color: white;
+}
+
+.menu-icon {
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.logo img {
+  height: 50px;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 24px;
+  text-align: center;
+}
+
+.subtitulo-verde {
+  font-weight: bold;
+  color: #103b00;
+  font-size: 16px;
+  text-align: center;
+}
+
+.descricao {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.botoes {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.botao-verde {
+  background-color: #e0e7d6;
+  color: #264d00;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.botao-roxo {
+  background-color: #dcd0f4;
+  color: #2b0066;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.imagens {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.imagens img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 2px 2px 8px #00000044;
+}
