@@ -11,7 +11,7 @@ body {
 }
   font-family: Georgia, serif;
   background-color: #61925f; /* cor de fundo igual da imagem */
-  color: #1f2a15; /* texto padrão */
+  color: #000000; /* texto padrão */
   padding: 0 1rem;
 }
 
@@ -46,11 +46,11 @@ h1 {
   text-align: center;
   margin-top: 1rem;
   font-weight: bold;
-  color: #1f2a15;
+  color: #000000;
 }
 
 .destaque {
-  color: #081d00;
+  color: #000000;
   font-size: 16px;
   font-weight: bold;
   margin: 1rem 0;
@@ -127,7 +127,7 @@ h1 {
   background: none;
   border: none;
   font-size: 24px;
-  color: #2f432f;
+  color: #000000;
   float: right;
   cursor: pointer;
 }
@@ -140,7 +140,7 @@ h1 {
 .menu-lateral ul li {
   margin: 1rem 0;
   font-size: 16px;
-  color: #000;
+  color: #000000;
   font-weight: 500;
 }
 
