@@ -5,10 +5,12 @@
 }
 
 body {
-    body {
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
+
   font-family: Georgia, serif;
   background-color: #61925f; /* cor de fundo igual da imagem */
   color: #000000; /* texto padrão */
