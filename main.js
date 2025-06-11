@@ -1,3 +1,3 @@
-document.querySelector(".menu-icon").addEventListener("click", () => {
-  alert("Menu clicado! (aqui você pode abrir um menu lateral)");
+document.querySelector('.menu').addEventListener('click', () => {
+  alert("Menu ainda não implementado 🌿");
 });
