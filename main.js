@@ -1,6 +1,3 @@
-document.querySelector('.menu').addEventListener('click', () => {
-  alert("Menu ainda não implementado 🌿");
-});
 const menuBotao = document.querySelector('.menu');
 const menuLateral = document.getElementById('menuLateral');
 const fecharMenu = document.getElementById('fecharMenu');
